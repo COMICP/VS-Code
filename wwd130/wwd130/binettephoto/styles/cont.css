@@ -90,27 +90,34 @@ header{
 
 
 
-.main{
+main{
     padding-top: 100px;
     max-width: 100%;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: var(--headline-color-on-white);
+    
 }
 
 .Hero{
     width: 100%;
-    grid-column: 1/1;
-    grid-row: 1/1;
+    grid-column: 1/4;
+    grid-row: 1/4;
+    position: static;
+    border-radius: 30px;
+    
 }
 
 .cont3{
-    grid-column: 1/1;
+    grid-column: 2/3;
     grid-row: 1/1;
     padding: 10px;
     margin: auto;
     text-align: center;
-    font-size: 14vw;
+    font-size: 7vw;
     border: 10px;
     border-radius: 20px;
     outline-style: solid;
@@ -129,7 +136,7 @@ header{
     padding: 10px;
     margin: auto;
     text-align: center;
-    font-size: 100%;
+    font-size: 1vw;
     border: 10px;
     border-radius: 20px;
     outline-style: solid;
@@ -142,7 +149,7 @@ header{
     padding: 10px;
     margin: auto;
     text-align: center;
-    font-size: 400%;
+    font-size: 2vw;
     border: 10px;
     border-radius: 20px;
     outline-style: solid;
