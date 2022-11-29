@@ -10,7 +10,7 @@
   --accent2-color: #fdb527;
 
 
-  --heading-font: "Source Serif 4 ExtraLight";
+  --heading-font: "Source Serif 4 ExtraLight", "Times New Roman" ;
   --paragraph-font: "Source Serif 4 Subhead Regular", Helvetica, sans-serif;
 
   --headline-color-on-white: #252525; 
@@ -96,9 +96,19 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: var(--headline-color-on-white);
+
+    
+
+    background-image: url("clouds-1.jpg");
+
+    
+    min-height: 100vh;
+  
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 
@@ -122,6 +132,7 @@ main{
     border-radius: 20px;
     outline-style: solid;
     outline-color: var(--headline-color-on-white);
+    
 }
 
 .bott{
